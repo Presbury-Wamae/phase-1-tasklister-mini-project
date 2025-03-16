@@ -7,7 +7,7 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: purple;
 }
 
 button {
@@ -28,8 +28,8 @@ button {
 }
 
 #list {
-  margin: 10px;
-  border: 1px solid #333;
+  margin: 30px;
+  border: px solid #333;
   background: rgba(255, 255, 255, 0.75);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
