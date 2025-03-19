@@ -6,12 +6,9 @@ const newtaskdescription = document.getElementById('new-task-description');
 const taskul = document.getElementById('tasks');
 const button = document.querySelector('form input[type="submit"]')
 
-button.addEventListener('click',() => {
-  addTask(newtaskdescription.value);
-})
-
 taskForm.addEventListener('submit', function(event){
   event.preventDefault();
+  addTask(newtaskdescription.value);
 })
 
 function addTask(toDo){
@@ -23,7 +20,7 @@ function addTask(toDo){
   deleteButton.textContent = "X";
   li.appendChild(deleteButton);
   
-  newtaskdescription.value = ""; // newtaskdescription.reset();
+  newtaskdescription.value = "";
   taskul.appendChild(li);
 }
 
